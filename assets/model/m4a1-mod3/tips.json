@@ -1,0 +1,51 @@
+{
+	"welcomeMessage":[
+		{
+			"hasRange":true,
+			"start":5,
+			"end":13,
+			"text":[{
+				"message":"早上好，如果没有别的事，我先回去工作了。",
+				"audio":"2.mp3"
+			}]
+		},
+		{
+			"hasRange":false,
+			"text":[{
+				"message":"我回来了，指挥官，这是给你带的伴手礼。",
+				"audio":"17.mp3"
+			}]		
+		}
+	],
+	"wakeup":
+		{
+			"text":[
+				{"message":"对一下口令，指挥官？"},
+				{"message":"欢迎回来，指挥官。"}
+			]
+		}
+	,
+	"mouseover": [{
+		"selector": "#waifu #live2d",
+		"text": [
+			{"message":"唔？！"}, 
+			{"message":"确实。"},
+			{"message":"哼"}
+		]
+	}],
+	"click":[{
+		"selector": "#waifu #live2d",
+		"text": [
+			{"message":"这指挥官，要看看我对作战方案的建议吗？……嗯，偶尔也可以依靠我的。","audio":"7.mp3"},
+			{"message":"对一下口令，指挥官？","audio":"4.mp3"},
+			{"message":"关于我的小队，想了解什么？","audio":"5.mp3"},
+			{"message":"指挥官，以后就请多关照了。","audio":"3.mp3"},
+			{"message":"明白，就让我上吧。","audio":"8.mp3"},
+			{"message":"究竟哪个才是真正的我呢？","audio":"19.mp3"},
+			{"message":"终于，开始了。","audio":"9.mp3"},
+			{"message":"这么闲能去找其他人吗？我还有训练要做。","audio":"6.mp3"},
+			{"message":"这就是，我所渴望的力量吗？","audio":"20.mp3"},
+			{"message":"我已经没有什么怜悯之心了。","audio":"23.mp3"}
+		]
+	}]
+}
