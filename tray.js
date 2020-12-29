@@ -1,9 +1,6 @@
 const { app, Menu, Tray, dialog, ipcMain, ipcRenderer } = require('electron')
 
-let tray = null
-var event=new Event('local-model-has-been-selected')
-app.dispatchEvent(event)
-const trayContextMenu = Menu.buildFromTemplate([
+let trayContextMenu = Menu.buildFromTemplate([
   {
     label:'load',
     click:()=>{
@@ -30,8 +27,5 @@ const trayContextMenu = Menu.buildFromTemplate([
       role:'quit'
   }
 ]);
-app.whenReady().then(() => {
-  tray = new Tray('assets/img/jpg/akazure.jpg');
-  tray.setToolTip('This is my application.');
-  tray.setContextMenu(trayContextMenu);
-})
+
+exports.trayContextMenu=trayContextMenu;
