@@ -1,0 +1,2 @@
+<?php
+    $modelDirPath='../model/';
